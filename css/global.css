@@ -1,0 +1,7 @@
+/* Global CSS File for W3D */
+
+/* Nav-Styling */
+.active {
+    background-color: #343a40;
+    color: #fff;
+}
