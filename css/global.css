@@ -2,6 +2,6 @@
 
 /* Nav-Styling */
 .active {
-    background-color: #343a40;
-    color: #fff;
+    background-color: #343a40 !important;
+    color: #fff !important;
 }
