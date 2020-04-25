@@ -5,3 +5,10 @@
     background-color: #343a40 !important;
     color: #fff !important;
 }
+
+
+/* Anzeige-Text in _anzeigen-Dateien */
+.anz-text {
+    font-size: 1.3em;
+    margin-left: 0.5em;
+}
