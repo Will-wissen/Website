@@ -1,10 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- JS-Libs -->
+    <script src="js/jquery-3.5.0.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="Style.css">
+
+
+    <title>Ort anzeigen</title>
 </head>
 <body>
-
+<!-- W3D on the top -->
+<div class="container">
+    <div class="row sticky-top">
+        <div class="col-12 text-center">
+            <a href="index.html" class="text-dark"><h1>W3D</h1></a>
+        </div>
+    </div>
+    <!-- Nav Bar -->
+    <div class="row ">
+        <div class="col-2">
+            <div class="nav flex-column nav-pills">
+                <a class="nav-link text-dark active" href="personen_uebersicht.html">Person</a>
+                <a class="nav-link text-dark" href="gruppen_uebersicht.html">Gruppe</a>
+                <a class="nav-link text-dark" href="orte_uebersicht.html">Ort</a>
+                <a class="nav-link text-dark" href="stundenplan_uebersicht.html">Stundenplan</a>
+                <a class="nav-link text-dark bg-light mt-4" href="#">Zurück</a>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="col-8">
+            <div class="row">
+                <div class="col-8">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h5 class="mb-0 text-muted">Ortsbezeichnung</h5>
+                            <p class="anz-text">H930D<p>
+                        </li>
+                        <li class="list-group-item">
+                            <h5 class="mb-0 text-muted">Kurbeschreibung</h5>
+                            <p class="anz-text">Computerraum<p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col p-1">
+                            <a class="btn btn-warning h-100 w-100" href="ort_bearbeiten.html">Bearbeiten</a>
+                        </div>
+                        <div class="col p-1">
+                            <a class="btn btn-danger h-100 w-100" href="orte_uebersicht.html">Löschen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Username  in the top right -->
+        <div class="col-2">
+            <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle shadow p-3 mb-5 bg-white rounded" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Benutzername
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="login.html">Abmelden</a>
+                <a class="dropdown-item" href="passwort_aendern.html">Passwort ändern</a>
+                <a class="dropdown-item" href="benutzer_anzeigen.html">Benutzer anzeigen</a>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
