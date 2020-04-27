@@ -10,5 +10,7 @@
     <orderEntry type="library" name="popper" level="application" />
     <orderEntry type="library" name="select2" level="application" />
     <orderEntry type="library" name="select2-bootstrap" level="application" />
+    <orderEntry type="library" name="select2" level="application" />
+    <orderEntry type="library" name="bs-custom-file-input" level="application" />
   </component>
 </module>
