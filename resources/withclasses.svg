@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 479.5 309">
+  <title>withclasses</title>
+  <g id="Grid">
+    <g id="Grid-2">
+      <g id="Horizontal-Tabs">
+        <g id="Tab-Mo">
+          <rect x="0.13" y="0.13" width="68.25" height="308.75" style="fill: #fff"/>
+          <path d="M68.25.25v308.5H.25V.25h68M68.5,0H0V309H68.5V0Z" transform="translate(0 0)"/>
+        </g>
+        <text transform="translate(26.1 16.01) scale(0.97 1)" style="font-size: 12.380634307861328px;font-family: MyriadPro-Regular, Myriad Pro"><tspan style="letter-spacing: 0.005981445582243501em">M</tspan><tspan x="10.03" y="0">o</tspan></text>
+        <g id="Tab-Di">
+          <rect x="68.63" y="0.13" width="68.25" height="308.75" style="fill: #fff"/>
+          <path d="M136.75.25v308.5h-68V.25h68M137,0H68.5V309H137V0Z" transform="translate(0 0)"/>
+        </g>
+        <text transform="translate(97.56 16.01) scale(0.97 1)" style="font-size: 12.380634307861328px;font-family: MyriadPro-Regular, Myriad Pro">Di</text>
+        <g id="Tab-Mi">
+          <rect x="137.13" y="0.13" width="68.25" height="308.75" style="fill: #fff"/>
+          <path d="M205.25.25v308.5h-68V.25h68M205.5,0H137V309h68.5V0Z" transform="translate(0 0)"/>
+        </g>
+        <g id="Tab-Do">
+          <rect x="205.63" y="0.13" width="68.25" height="308.75" style="fill: #fff"/>
+          <path d="M273.75.25v308.5h-68V.25h68M274,0H205.5V309H274V0Z" transform="translate(0 0)"/>
+        </g>
+        <text transform="translate(232.44 16.01) scale(0.97 1)" style="font-size: 12.380634307861328px;font-family: MyriadPro-Regular, Myriad Pro;letter-spacing: 0.003987630388162334em">D<tspan x="8.29" y="0" style="letter-spacing: 0.00004069010600165648em">o</tspan></text>
+        <g id="Tab-Fr">
+          <rect x="274.13" y="0.13" width="68.25" height="308.75" style="fill: #fff"/>
+          <path d="M342.25.25v308.5h-68V.25h68M342.5,0H274V309h68.5V0Z" transform="translate(0 0)"/>
+        </g>
+        <g id="Tab-Sa">
+          <rect x="342.63" y="0.13" width="68.25" height="308.75" style="fill: #fff"/>
+          <path d="M410.75.25v308.5h-68V.25h68M411,0H342.5V309H411V0Z" transform="translate(0 0)"/>
+        </g>
+        <g id="Tab-So">
+          <rect x="411.13" y="0.13" width="68.25" height="308.75" style="fill: #fff"/>
+          <path d="M479.25.25v308.5h-68V.25h68M479.5,0H411V309h68.5V0Z" transform="translate(0 0)"/>
+        </g>
+        <text transform="translate(164.95 16.01) scale(0.97 1)" style="font-size: 12.380634307861328px;font-family: MyriadPro-Regular, Myriad Pro;letter-spacing: 0.012003581270488659em">M<tspan x="10.1" y="0" style="letter-spacing: -0.00004069010600165648em">i</tspan></text>
+        <text transform="translate(303.6 16.31) scale(0.97 1)" style="font-size: 12.380634307861328px;font-family: MyriadPro-Regular, Myriad Pro"><tspan style="letter-spacing: -0.02596028762905683em">F</tspan><tspan x="5.71" y="0">r</tspan></text>
+        <text transform="translate(370.88 16.4) scale(0.97 1)" style="font-size: 12.380634307861328px;font-family: MyriadPro-Regular, Myriad Pro"><tspan style="letter-spacing: 0.0029703777381209226em">S</tspan><tspan x="6.14" y="0">a</tspan></text>
+        <text transform="translate(439.09 16.31) scale(0.97 1)" style="font-size: 12.380634307861328px;font-family: MyriadPro-Regular, Myriad Pro"><tspan style="letter-spacing: 0.005981445582243501em">S</tspan><tspan x="6.18" y="0">o</tspan></text>
+      </g>
+      <g id="Top-Divider">
+        <path d="M479,.5V21.17H.5V.5H479m.5-.5H0V21.67H479.5V0Z" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+  <g id="Classes">
+    <g id="_2xAM">
+      <rect x="1" y="105.25" width="66" height="23.5" style="fill: #b3b3b3"/>
+      <path d="M66.75,105.5v23H1.25v-23h65.5m.5-.5H.75v24h66.5V105Z" transform="translate(0 0)"/>
+    </g>
+    <g id="LB1">
+      <rect x="69.72" y="105.06" width="66" height="11.5" style="fill: #b3b3b3"/>
+      <path d="M135.47,105.31v11H70v-11h65.5m.5-.5H69.47v12H136v-12Z" transform="translate(0 0)"/>
+    </g>
+    <g id="LB2">
+      <rect x="69.72" y="117.06" width="66" height="11.5" style="fill: #b3b3b3"/>
+      <path d="M135.47,117.31v11H70v-11h65.5m.5-.5H69.47v12H136v-12Z" transform="translate(0 0)"/>
+    </g>
+    <g id="INSY">
+      <rect x="1" y="133.06" width="66" height="11.5" style="fill: #b3b3b3"/>
+      <path d="M66.75,133.31v11H1.25v-11h65.5m.5-.5H.75v12h66.5v-12Z" transform="translate(0 0)"/>
+    </g>
+    <g id="ITP">
+      <rect x="1" y="145.06" width="66" height="11.5" style="fill: #b3b3b3"/>
+      <path d="M66.75,145.31v11H1.25v-11h65.5m.5-.5H.75v12h66.5v-12Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>
