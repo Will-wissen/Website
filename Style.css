@@ -2,3 +2,8 @@
     background: aqua;
 
 }
+
+.class:hover {
+    stroke: var(--gray-dark);
+    stroke-width: 1px;
+}

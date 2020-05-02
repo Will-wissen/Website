@@ -12,5 +12,8 @@
     <orderEntry type="library" name="select2-bootstrap" level="application" />
     <orderEntry type="library" name="select2" level="application" />
     <orderEntry type="library" name="bs-custom-file-input" level="application" />
+    <orderEntry type="library" name="jquery-3.4.1.slim" level="application" />
+    <orderEntry type="library" name="popper" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
   </component>
 </module>
