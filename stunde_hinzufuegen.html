@@ -1,10 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- JS-Libs -->
+    <script src="js/jquery-3.5.0.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Für die Select-Box-->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <!-- Bootstrap Styling für die Select-Box-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css" rel="stylesheet">
+
+    <title>Stunde hinzufügen</title>
 </head>
 <body>
-
+<!-- W3D on the top -->
+<div class="container">
+    <div class="row sticky-top">
+        <div class="col-12 text-center">
+            <a href="index.html" class="text-dark"><h1>W3D</h1></a>
+        </div>
+    </div>
+    <!-- Nav Bar -->
+    <div class="row ">
+        <div class="col-2">
+            <div class="nav flex-column nav-pills">
+                <a class="nav-link text-dark" href="personen_uebersicht.html?_ijt=ihcs9erl13ub8ib4s3srabhbh2">Person</a>
+                <a class="nav-link text-dark" href="gruppen_uebersicht.html?_ijt=cgs3977lelm3to5j6q93vdo6if">Gruppe</a>
+                <a class="nav-link text-dark" href="orte_uebersicht.html">Ort</a>
+                <a class="nav-link text-dark active" href="stundenplan_uebersicht.html">Stundenplan</a>
+                <a class="nav-link text-dark bg-light mt-4" href="#">Zurück</a>
+            </div>
+        </div>
+        <div class="col-8">
+            <form>
+                <div class="row">
+                    <div class="col col-lg-8">
+                        <div class="form-row">
+                            <label for="ort">Ortsbezeichnung</label>
+                            <select id="ort" name="ort" class="form-control select2">
+                                <option></option>
+                                <option value="$pers1">H123</option>
+                                <option value="$pers2">HS1</option>
+                                <option value="$pers3">W334f</option>
+                                <option value="$pers4">H922b</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <label for="verantwortlicher">Verantwortlicher</label>
+                            <input type="text" id="verantwortlicher" name="verantwortlicher" class="form-control">
+                        </div>
+                        <div class="form-row">
+                            <label for="fach">Fach</label>
+                            <input type="text" id="fach" name="fach" class="form-control">
+                        </div>
+                        <div class="form-row">
+                            <label for="tag">Wochentag</label>
+                            <select id="tag" name="tag" class="form-control select2">
+                                <option></option>
+                                <option value="mo">Montag</option>
+                                <option value="di">Dienstag</option>
+                                <option value="mi">Mittwoch</option>
+                                <option value="do">Donnerstag</option>
+                                <option value="fr">Freitag</option>
+                                <option value="sa">Samstag</option>
+                                <option value="so">Sonntag</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="begin">Beginn</label>
+                                <input id="begin" name="beginn" type="time" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="end">Ende</label>
+                                <input id="end" name="end" type="time" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex flex-column align-items-center justify-content-end">
+                        <a class="btn btn-success w-100 mt-2" href="#">Stunde hinzufügen</a>
+                        <a class="btn btn-sm btn-outline-info w-100 mt-2" href="stundenplan_anzeigen.html">Stundenplan anzeigen</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- Username  in the top right -->
+        <div class="col-2">
+            <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle shadow p-3 mb-5 bg-white rounded" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Benutzername
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="login.html">Abmelden</a>
+                <a class="dropdown-item" href="passwort_aendern.html">Passwort ändern</a>
+                <a class="dropdown-item" href="benutzer_anzeigen.html">Benutzer anzeigen</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>$(document).ready(function () {
+    //Can also use AJAX
+    $('#ort').select2({
+        placeholder: "Kein Ort ausgewählt",
+        theme: "bootstrap"
+    });
+    $('#tag').select2({
+        placeholder: " ",
+        theme: "bootstrap"
+    });
+})</script>
 </body>
 </html>
