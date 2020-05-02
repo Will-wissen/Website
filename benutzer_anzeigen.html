@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="css/global.css">
 
     <title>Benutzer anzeigen</title>
 </head>
@@ -30,16 +31,17 @@
             </div>
         </div>
         <div class="col-8 text-center">
-            <div class="row ">
-                <div class="col text-center mr-auto ml-auto">
-                    <h2>Vorname</h2>
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col text-center mr-auto ml-auto">
-                    <h1>Vorname</h1>
-                </div>
-            </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <h5 class="mb-0 text-muted">Benutzername</h5>
+                        <p class="anz-text">fkoch<p>
+                    </li>
+                    <li class="list-group-item">
+                        <h5 class="mb-0 text-muted">Typ</h5>
+                        <p class="anz-text">Administrator<p>
+                    </li>
+                </ul>
+                <a class="mt-3 btn btn-danger" href="#">Benutzer löschen</a>
         </div>
         <!-- Username  in the top right -->
         <div class="col-2">
